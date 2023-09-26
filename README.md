@@ -54,7 +54,7 @@ JSON - Notation, can add contxt to HTTP.
 - Flexible, based on needs
 - Flexible, based on Patterns
 
-**HTTP Codes**
+## HTTP Codes
 | Codes   | Meaning       |
 | ------- |:-------------:|
 | 100s    | Informational | 
@@ -62,3 +62,25 @@ JSON - Notation, can add contxt to HTTP.
 | 300s    | Redirect      |
 | 400s    | Client Error  |
 | 500s    | Server Error  |
+
+## REST API Constrains
+
+### 1. Client-Server Architecture
+### 2. Stateless Architecture
+  - Stability
+  - Scalability
+  - Reliability
+  - flexibility
+### 3. Cacheable
+  | HTTP Method | Idempotent | Safe |
+|-------------|------------|------|
+| OPTIONS     | yes        | yes  |
+| GET         | yes        | yes  |
+| HEAD        | yes        | yes  |
+| PUT         | yes        | no   |
+| POST        | no         | no   |
+| DELETE      | yes        | no   |
+| PATCH       | no         | no   |  
+
+- **Idempotence** means the result will never be changed, you can keep calling the method, but the response you get back will always be the same.
+- **Safety** is where the resource on the server is not changed in any way. Things might happen on the server, but the resource itself is not modified.
