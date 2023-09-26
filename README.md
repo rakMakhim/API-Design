@@ -10,7 +10,7 @@
 
 ## Verbs
 **GET**
-  - Retrieve a resource or collection of resources
+- Retrieve a resource or collection of resources
 
 **DELETE**
   - Deletes a resouce
