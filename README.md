@@ -53,3 +53,12 @@ JSON - Notation, can add contxt to HTTP.
 - Docs discovered as you go
 - Flexible, based on needs
 - Flexible, based on Patterns
+
+**HTTP Codes**
+| Tables        | Are           |
+| ------------- |:-------------:|
+| 100s    | Informational | 
+| 200s    | Success      |
+| 300s| Redirect   |
+| 400s | Client Error |
+| 500s | Server Error |
