@@ -23,5 +23,7 @@
   - Updates a single resource that already exists by patching the column that is being modified
 ### OPTIONS
   - Returns info about API (methods/content type)
+  - Does not return an entity body, just metadata in the form of HTTP headers.
 ### HEAD
   - Returns info about resource (version/length/type)
+  - Does not return an entity body, just metadata in the form of HTTP headers.
