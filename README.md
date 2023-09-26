@@ -14,7 +14,7 @@
 
 **DELETE**
   - Deletes a resouce
-** PUT **
+**PUT**
   - Updates a single resource that already exists by replacing it
 ** POST **
   - Catch-all for HTTP resources
