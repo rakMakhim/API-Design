@@ -11,7 +11,7 @@
 ## Verbs
 **GET**
   - Retrieve a resource or collection of resources
-** DELETE **
+**DELETE**
   - Deletes a resouce
 ** PUT **
   - Updates a single resource that already exists by replacing it
