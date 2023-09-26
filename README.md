@@ -37,7 +37,9 @@
 ## REST and HTML
 
 HTTP - Protocol
+
 XML - Markup Language, can add structure to HTTP.
+
 JSON - Notation, can add contxt to HTTP.
 
 **REST** is a set of principles and constraints.
