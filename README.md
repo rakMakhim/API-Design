@@ -33,3 +33,23 @@
 **HEAD**
   - Returns info about resource (version/length/type)
   - Does not return an entity body, just metadata in the form of HTTP headers.
+
+## REST and HTML
+
+HTTP - Protocol
+XML - Markup Language, can add structure to HTTP.
+JSON - Notation, can add contxt to HTTP.
+
+**REST** is a set of principles and constraints.
+
+**SOAP**
+- A fixed process
+- Lots of documentations up front
+- Detailed scenarios
+- Complex error handeling
+
+**REST**
+- Few arguments
+- Docs discovered as you go
+- Flexible, based on needs
+- Flexible, based on Patterns
