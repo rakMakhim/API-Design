@@ -72,7 +72,8 @@ JSON - Notation, can add contxt to HTTP.
   - Reliability
   - flexibility
 ### 3. Cacheable
-  | HTTP Method | Idempotent | Safe |
+
+| HTTP Method | Idempotent | Safe |
 |-------------|------------|------|
 | OPTIONS     | yes        | yes  |
 | GET         | yes        | yes  |
