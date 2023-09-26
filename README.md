@@ -55,10 +55,10 @@ JSON - Notation, can add contxt to HTTP.
 - Flexible, based on Patterns
 
 **HTTP Codes**
-| Tables        | Are           |
-| ------------- |:-------------:|
+| Codes   | Meaning       |
+| ------- |:-------------:|
 | 100s    | Informational | 
-| 200s    | Success      |
-| 300s| Redirect   |
-| 400s | Client Error |
-| 500s | Server Error |
+| 200s    | Success       |
+| 300s    | Redirect      |
+| 400s    | Client Error  |
+| 500s    | Server Error  |
